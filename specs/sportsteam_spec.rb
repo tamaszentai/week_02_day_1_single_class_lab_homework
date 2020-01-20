@@ -26,6 +26,10 @@ class TestSportsteam < MiniTest::Test
     assert_equal("Lajos Agoston", result)
   end
 
+def test_set_coach
+  result = @sportsteam.set_coach("Robert Gondos")
+  assert_equal("Robert Gondos", result)
+end
 
 
 end
