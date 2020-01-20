@@ -22,4 +22,9 @@ class CodeClanStudent
     return @cohort
   end
 
+  def talk (phrase)
+    return phrase
+  end
+
+  
 end
