@@ -33,5 +33,9 @@ class TestSportsteam < MiniTest::Test
     assert_equal(true, result)
   end
 
+  def test_points_update
+    result = @sportsteam.points_update("win")
+    assert_equal(1, result)
+  end
 
 end

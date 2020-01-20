@@ -5,6 +5,7 @@ class Sportsteam
     @team_name = team_name
     @players = players
     @coach = coach
+    @points = 0
   end
 
   # def get_team_name
@@ -33,5 +34,13 @@ class Sportsteam
     return false
   end
 
+  def points_update(result)
+    if result == "win"
+      @points += 1
+    else
+      @points -= 1
+    end
+  end
 
+  
 end
