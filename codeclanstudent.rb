@@ -8,9 +8,18 @@ class CodeClanStudent
     return @student_name
   end
 
+  def set_student_name
+    @student_name = "Bela"
+    return @student_name
+  end
+
   def get_cohort
     return @cohort
   end
 
+  def set_cohort
+    @cohort = "E40"
+    return @cohort
+  end
 
 end
