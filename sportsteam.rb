@@ -24,4 +24,14 @@ class Sportsteam
   #   return @coach
   # end
 
+  def check_player_name(player_name)
+    for name in @players
+      if name == player_name
+        return true
+      end
+    end
+    return false
+  end
+
+
 end
